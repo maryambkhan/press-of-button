@@ -28,12 +28,15 @@ mouseEnter.addEventListener("mouseenter", mouseEnterHandler);
 - It was intresting while i was working on that i found different ways to run or call a function
 - Stated one i am not sure how this works?
 
-let setImage = function(image){
-  imgTag.src = image;
-}
+   let setImage = function(image){
 
-imgTag.addEventListener("mouseover", function(){setImage(img2)});
-imgTag.addEventListener("mouseout", function(){setImage(img1)});
+      imgTag.src = image;
+
+       }
+
+    imgTag.addEventListener("mouseover", function(){setImage(img2)});
+    
+    imgTag.addEventListener("mouseout", function(){setImage(img1)});
 
 
 ## Attributes
